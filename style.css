@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    margin : 0 34px;
+    padding : 8px;
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_nav-logo{
+    width: 220px;
+}
+
+.header_nav-items{
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+
+.header_nav-item a{
+    color:orange;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header_nav-item a:hover{
+    color:green;
+    text-decoration: underline;
+}
+
+/* MAIN */
+/* Section */
+.hero{
+    display: flex;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    justify-content: space-between;
+    align-items: center;
+}
+.main_text{
+    width:700px;
+}
+.main_img img{
+    width:500px;
+}
+
+.main_text-heading{
+    font-size: 40px;
+    color: #808080;
+}
+
+/* section 2 */
+.showcase{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.showcase_cards h4{
+    color:#818181;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.footer{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 16px;
+}
+
+.footer_text{
+    text-align: center;
+}
+
+.student{
+    display: flex;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stu_text{
+    width:700px;
+}
+.stu_img img{
+    width:500px;
+}
+.stu_text p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 25px;
+    color:#606060;
+}
+
+.information{
+    display: flex;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+
+.information_text{
+    width:700px;
+}
+
+.information_img{
+    width:500px;
+}
+
+.information_text p{
+    color: #606060;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 600;
+}
